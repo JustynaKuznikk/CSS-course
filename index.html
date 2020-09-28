@@ -9,6 +9,7 @@
 			border-color: #008080;
 			border-width: 1px;
 			border-style: solid;
+			border-radius: 10px;
 		}
 		p{color: red;
 			font-size: 20px;
@@ -19,14 +20,27 @@
 		.smaller-image{
 			width: 300px;
 		}
+		.picture-border{
+			border-color: #008080;
+			border-width: 10px;
+			border-style: solid;
+			border-radius: 5px;
+		}
+		.picture-circle-border{
+			border-color: #008080;
+			border-width: 10px;
+			border-style: solid;
+			border-radius: 50%;
+		}
 	</style>
 </head>
 <body>
 	<h2>Sea view</h2>
-	<a href="#"><img class="smaller-image" src="photos/sea.jpg"></a>
-	<p>1 paragraph</p>
-	<h2>Second header</h2>
-	<p>2 paragraph</p>
+	<a href="#"><img class="smaller-image picture-border" src="photos/sea.jpg"></a>
+	<p>Beautiful lighthouse</p>
+	<h2>Beach viev</h2>
+	<a href="#"><img class="smaller-image picture-circle-border" src="photos/sea2.jpg"></a>
+	<p>Beautiful beach</p>
 	<h2>Third header</h2>
 	<p>3 paragraph</p>
 	<div class="yellow-text">DIV 1</div>
