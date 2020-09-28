@@ -1,0 +1,17 @@
+.custom-but{
+    background-color: rgb(88, 88, 194);
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    margin: 100px;
+    padding: 10px;
+  }
+.parent{
+    font-size: 10px;
+}
+.child{
+    font-size: 1.5em;
+}
+
+
+  
