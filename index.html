@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Website</title>
+	<title>Sea Pictures</title>
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	<style>
+		[type='checkbox']{
+			color: #2F4F4F;
+		}
+
+
 		#third-header{
 			color:#FF4500;
-
 		}
 
 		h2{	
@@ -17,15 +21,20 @@
 			border-style: solid;
 			border-radius: 10px;
 			background-color: #F0FFFF;
-			margin-left: 350px;
-			margin-right: 350px;
-			margin-top: 50px;
+			padding: 10px;
+			text-align: center;
+			margin: 50px 350px 30px 350px;
 		}
-		p{color: red;
+		p{
+			color: red;
 			font-size: 20px;
 			font-family: monospace;
-			margin-left: 550px;
-			margin-right: 550px;
+			text-align: center;
+
+		}
+		div {
+			text-align: center;
+			
 		}
 		.yellow-text{
 			color: yellow;
@@ -38,8 +47,6 @@
 			border-width: 10px;
 			border-style: solid;
 			border-radius: 5px;
-			margin-left: 450px;
-			margin-right: 450px;
 
 		}
 		.picture-circle-border{
@@ -47,9 +54,15 @@
 			border-width: 10px;
 			border-style: solid;
 			border-radius: 50%;
-			margin-left: 450px;
-			margin-right: 450px;
+
 		}
+		.picture-border-second{
+			border-color: #FF6347;
+			border-width: 15px;
+			border-style: solid;
+			border-radius: 25%;
+		}
+
 	</style>
 </head>
 <body>
@@ -66,14 +79,25 @@
 	</div>
 	<div>
 		<h2 id="third-header">Sea bridge</h2>
-		<a href="#"><img class="smaller-image picture-circle-border" src="photos/sea3.jpg"></a>
+		<a href="#"><img class="smaller-image picture-border-second" src="photos/sea3.jpg"></a>
 		<p>Beautiful bridge</p>
 	</div>
+	<div>
+		<p style="color: #2E8B57">What do You think about this Website?</p>
+		<input type="checkbox" id="first" name="first" value="Love">
+  		<label for="first"> I love it!</label><br>
+  		<input type="checkbox" id="second" name="second" value="Like">
+  		<label for="second"> I like it!</label><br>
+  		<input type="checkbox" id="third" name="third" value="Hate">
+  		<label for="third"> I hate it!</label><br><br>
+  		<input type="submit" value="Submit">
+	</div>
+	<div>
+		<a href="https://www.pexels.com/pl-pl/collections/sea-me-now-9fm5z70/">
+  			More photos You can find on this Website
+		</a>
+	</div>
 	
-	
-	
-	<div class="yellow-text">DIV 1</div>
-	<div>DIV 2</div>
 
 </body>
 </html>
